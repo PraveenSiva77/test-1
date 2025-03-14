@@ -1,0 +1,123 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1e293b;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f43f5e;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #be123c;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 2rem;
+    color: #1e293b;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f43f5e;
+    display: inline-block;
+  }
+  
+  /* Skills */
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills-list span {
+    background-color: #f1f5f9;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #1e293b;
+  }
+  
+  /* Projects */
+  .project-card {
+    background-color: #f1f5f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    color: #1e293b;
+  }
+  
+  .project-card p {
+    margin: 10px 0;
+  }
+  
+  .project-card a {
+    color: #f43f5e;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Contact */
+  #contact a {
+    color: #f43f5e;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1e293b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
